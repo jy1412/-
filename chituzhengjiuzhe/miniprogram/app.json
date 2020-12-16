@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/money/money",
+    "pages/square/square",
+    "pages/mine/mine",
+    "pages/history/history",
+    "pages/newList/newList",
+    "pages/listDetail/listDetail",
+    "pages/write/write",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFC125",
+    "navigationBarTitleText": "吃土拯救者",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/money/money",
+        "iconPath": "/images/money1.png",
+        "selectedIconPath": "/images/money2.png"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "iconPath": "/images/square1.png",
+        "selectedIconPath": "/images/square2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/mine1.png",
+        "selectedIconPath": "/images/mine2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
